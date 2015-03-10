@@ -72,6 +72,7 @@
 				21EB9AC61A9B299D00B1E6D8 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		21EB9AC61A9B299D00B1E6D8 /* Products */ = {
 			isa = PBXGroup;
@@ -416,6 +417,7 @@
 				21EB9AEA1A9B299D00B1E6D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21EB9AEB1A9B299D00B1E6D8 /* Build configuration list for PBXNativeTarget "backgroundProcessingTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +426,7 @@
 				21EB9AED1A9B299D00B1E6D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

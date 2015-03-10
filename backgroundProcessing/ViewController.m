@@ -20,7 +20,8 @@ bool allowsAlert;
 @synthesize labelAlert;
 
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
     [center addObserverForName:nil
                         object:nil
@@ -88,7 +89,6 @@ bool allowsAlert;
     [formatter setDateFormat:@"MM-dd-yyy hh:mm"];
     [formatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"IST"]];
     [formatter stringFromDate:_datePicker.date];
-    
 }
 
 -(void)setNotificationAllowed
@@ -102,7 +102,8 @@ bool allowsAlert;
 }
 
 
--(BOOL)textFieldShouldReturn:(UITextField *)textField{
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
     [self.textField resignFirstResponder];
     return YES;
 }
